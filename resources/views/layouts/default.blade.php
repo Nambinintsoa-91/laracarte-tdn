@@ -32,7 +32,7 @@
         
         @include('layouts.partials._nav')
 
-        @yield('container')
+        @yield('content')
 
         @include('layouts.partials._footer')
 

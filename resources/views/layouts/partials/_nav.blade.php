@@ -14,7 +14,7 @@
         <ul class="nav navbar-nav">
             <li class="{{ set_active_route('root_path') }}"><a href="{{ route('root_path') }}">Home</a></li>
             <li class="{{ set_active_route('about_path') }}"><a href="{{ route('about_path') }}">About</a></li>
-            <li><a href="#contact">Artisans</a></li>
+            <li><a href="#">Artisans</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planet <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -26,7 +26,7 @@
                     <li><a href="https://larachat.co">Larachat</a></li>
                 </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="{{ set_active_route('contact_path') }}"><a href="{{ route('contact_path') }}">Contact</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
